@@ -1,0 +1,69 @@
+* {
+     font-family: 'Opens sans', sans-serif;
+}
+
+.navbar-nav {
+     display: flex;
+     align-items: center;
+}
+
+.navbar {
+     height: 5.188rem;
+     padding: 1.063rem 3.813rem;
+     position: fixed;
+     background-color: #FFFFFF;
+}
+
+#navbar-items {
+     justify-content: flex-end;
+     padding-right: 1.875rem;
+}
+
+.nav-link:hover {
+     font-weight: 500;
+     color: #91268F;
+     text-decoration: underline;
+}
+
+.navbar-nav {
+     display: flex;
+     margin: 0 !important;
+     gap: 3.2rem;
+}
+
+.nav-link {
+     padding: 0 0 !important;
+     color: #0C0C0C;
+}
+
+.home {
+     text-decoration: underline;
+}
+
+.home,
+.certificates {
+     display: flex;
+     align-items: center;
+     gap: 0.563rem;
+}
+
+.nav-link {
+     font-size: 12px;
+}
+
+.acessNow-button {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #91268F;
+     color: #FFFFFF;
+     border: none;
+     width: 9.5rem;
+     height: 2.188rem;
+     font-size: 14px;
+     gap: 0.125rem;
+}
+
+.acessNow-button:hover {
+     border: 1px solid #FFFFFF;
+}

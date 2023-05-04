@@ -1,0 +1,64 @@
+.footer {
+     height: 13.5rem;
+}
+
+.footer-container {
+     margin: 0 !important;
+     padding: 0 !important;
+     max-width: 100%;
+     height: 2.876rem;
+}
+
+.first-row-footer {
+     height: 9.188rem;
+}
+
+.left-sub-footer {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 2.5rem;
+}
+
+.footer-item {
+     list-style: none;
+}
+
+.footer-link {
+     text-decoration: none;
+     color: black;
+     font-size: 12px;
+}
+
+.footer-countries {
+     display: flex;
+     gap: 0.625rem;
+}
+
+.country-item {
+     list-style: none;
+}
+
+.right-sub-footer {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.second-row-footer {
+     height: 4.438rem;
+     background-color: rgb(232, 231, 231);
+     display: flex;
+     align-items: center;
+     justify-content: center
+}
+
+.footer-link:hover {
+     font-weight: 500;
+     text-decoration: underline;
+     color: #91268F;
+}
+
+.home {
+     text-decoration: underline;
+}

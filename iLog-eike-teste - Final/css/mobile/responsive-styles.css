@@ -1,0 +1,100 @@
+* {
+  font-family: "Opens sans", sans-serif;
+}
+
+@media (max-width: 672px) {
+  .navbar-nav {
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid black;
+    display: flex;
+    gap: 1rem !important;
+    margin: 0 !important;
+    min-width: 10rem;
+    padding: 1rem;
+    width: 100%;
+    width: 50%;
+  }
+
+  .navbar-collapse {
+    display: flex;
+    margin-top: 1.2rem;
+    padding: 0 !important;
+  }
+
+  .banner-image {
+    display: none;
+  }
+
+  .login-container {
+    display: flex;
+    justify-content: center;
+    right: 7.5rem;
+    top: 1rem;
+    width: 50%;
+  }
+
+  #login-column {
+    max-width: 80%;
+  }
+
+  .carousels-section {
+    margin-top: 14rem;
+  }
+
+  .left-sub-footer {
+    flex-wrap: inherit;
+    gap: 1rem;
+    padding: 0.5rem;
+  }
+
+  .right-sub-footer {
+    display: none !important;
+  }
+
+  .carousel-inner {
+    display: flex;
+  }
+
+  .carousel-item {
+    display: block;
+    flex: 0 0 calc(100% / 4);
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 672px) and (max-width: 990px) {
+  .navbar-nav {
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid black;
+    display: flex;
+    gap: 1rem !important;
+    margin: 0 !important;
+    max-width: 15rem !important;
+    padding: 1rem;
+    width: 50%;
+  }
+
+  .navbar-collapse {
+    display: flex;
+    margin-top: 1.2rem;
+    padding: 0 !important;
+  }
+
+  #login-column {
+    max-width: 80%;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .carousel-inner {
+    display: flex;
+  }
+
+  .carousel-item {
+    display: block;
+    flex: 0 0 calc(100% / 4);
+    margin-right: 0;
+  }
+}
